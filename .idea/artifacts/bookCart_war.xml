@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bookCart:war">
+    <output-path>$PROJECT_DIR$/bookCart/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bookCart</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bookCart-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="bookCart:war exploded" />
+    </root>
+  </artifact>
+</component>
